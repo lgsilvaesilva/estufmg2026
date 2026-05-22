@@ -1,0 +1,806 @@
+---
+pagetitle: "Todos os caminhos levam a Roma"
+format:
+  revealjs:
+    theme: default
+    css: [css/sfah.css, css/fonts.css]
+    include-in-header: header.html
+    slide-number: true
+    slide-level: 1
+    transition: fade
+    width: 1600
+    height: 900
+    margin: 0.1
+    min-scale: 0.7
+    max-scale: 1.0
+execute:
+  warning: false
+  message: false
+---
+
+# &nbsp; {#xaringan-title .center .middle .inverse background-image="img/rome_map.png" background-size="cover"}
+
+<h1><em><span class="fancy">Todos os caminhos <del>levam</del> <ins>me levaram</ins> a Roma</span></em></h1>
+<h2><span class="subtitleinline"><span class="fancy">passeio aleatório de um Estatístico até a ONU/FAO</span></span></h2>
+
+<span class="medium">Luís Silva e Silva |  Encontro Comemorativo - UFMG | Outubro 2024</span>
+
+<!-- this ends up being the title slide since seal = FALSE-->
+
+# &nbsp; {.right .middle background-color="#f3f3f3ff"}
+
+<img class="circle" src="img/myphoto.png" width="150px"/>
+
+<h3>Find me at...</h3>
+
+[<i class="fab fa-twitter"></i> \@lgsilvaesilva](http://twitter.com/lgsilvaesilva)  
+[<i class="fab fa-github"></i> \@lgsilvaesilva](http://github.com/lgsilvaesilva)  
+[<i class="fab fa-linkedin"></i> \@lgsilvaesilva](https://www.linkedin.com/in/lgsilvaesilva/)  
+[<i class="fas fa-link"></i> lgsilvaesilva.github.io](https://lgsilvaesilva.github.io)
+
+# &nbsp; {.center .middle .bg_karl}
+
+
+::: .pull-left
+<h1><em><span class="fancy"><span class="saltinline">"The best thing about being a statistician is that you get to play in everyone's backyard."</span></span></em></h1>
+:::
+
+::: .pull-right
+::: .center
+<img src="img/John_Tukey.jpeg" width="65%" align="center" style="border-radius: 50%;"/>
+
+__John Tukey (1915 - 2000)__
+
+:::
+:::
+
+# &nbsp; {#minha_trajetoria-4 .center .middle background-image="img/maps.jpg" background-size="cover"}
+
+<h1><span class="large"><span class="fancy">Passeio Aleatório <br> de um Estatístico</span></span></h1>
+
+# &nbsp; {.left .middle .inverse}
+
+<h2>Graduação (2007 - 2010)</h2>
+
+::: .pull-left
+
++ Muita Matemática (Cálculo IV)
+
++ Várias disciplinas do DCC 
+  + Estrutura de dados
+  + Programação
+  + Teoria de Filas
+  + Programação Linear (Otimização)
+
++ Estágio - CAEd
+
++ Monitor: Probabilidade e Est. Computationcal
+
++ Conheço &rarr; Odeio &rarr; Amo &rarr; R
+
+:::
+
+::: .pull-right
+::: .center
+<img src="img/graduacao.svg" width="85%" align="center" style="border-radius: 2%;"/>
+
+:::
+:::
+
+
+# &nbsp; {.left .middle .bg_brain .inverse}
+
+<h2><span class="fancy">Graduação + Estágio + Monitoria</span></h2>
+
+::: .pull-left
+<h2><span class="heatinline"><span class="fancy">Hard skills</span></span></h2>
+
++ <span class="fancy"><span class="heatinline">Manipulação de grande bases de dados</span></span>
+
++ <span class="fancy"><span class="heatinline">Análise de dados</span></span>
+
++ Aprendo SPSS
+
++ Teoria de Resposta ao Item
+
++ Estatística Multivariada
+
++ <span class="fancy"><span class="heatinline">Aprendo R</span></span>
+
++ <span class="fancy"><span class="heatinline">Probabilidade</span></span>
+
+:::
+
+::: .pull-right
+<h2><span class="saltinline"><span class="fancy">Soft skills</span></span></h2>
+
++ Relacionamento profissional
+
++ Hierarquia institucional
+
++ <span class="fancy"><span class="saltinline">Desenvolvimento emocional</span></span>
+
++ <span class="fancy"><span class="saltinline">Compartilhar conhecimento</span></span>
+
++ <span class="fancy"><span class="saltinline">Colaboração</span></span>
+
+:::
+
+# &nbsp; {.right .top background-image="img/ambulancia02.jpeg" background-size="cover"}
+
+<!-- https://unsplash.com/photos/vGu08RYjO-s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+<!-- https://unsplash.com/photos/V2hZ1VNsZJE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+
+::: .pull-right
+<h1><span class="fancy"><span class="fatinline">Mestrado: Plataforma Arauca</span></span></h1>
+
+<span class="fancy"><span class="acid">Qual a distância que um indivíduo deve percorrer até que alcance uma região onde possa ter um atendimento médico?</span></span>
+
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Mestrado: Plataforma Arauca</span></span></h2>
+
+::: .pull-left
+
++ Medicina Intensiva
+
++ Minas Gerais
+
++ Taxa Nacional: ⋍ 3 por 100 mil habitantes.
+
++ Todas as especialidades médicas
+
++ Todos os municípios do Brasil (~5570)
+:::
+
+::: .pull-right
+::: .center
+
+<img src="img/mgcarencia.svg" width="100%" align="center" style="border-radius: 2%;"/>
+
+
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Mestrado: Plataforma Arauca</span></span></h2>
+
+::: .pull-left
+
++ Medicina Intensiva
+
++ Minas Gerais
+
++ Taxa Nacional: ⋍ 3 por 100 mil habitantes.
+
++ Todas as especialidades médicas
+
++ Todos os municípios do Brasil (~5570)
+:::
+
+::: .pull-right
+::: .center
+
+<img src="img/mgcarencia02.svg" width="100%" align="center" style="border-radius: 2%;"/>
+
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Mestrado: Plataforma Arauca</span></span></h2>
+
+::: .pull-left
+
++ Medicina Intensiva
+
++ Minas Gerais
+
++ Taxa Nacional: ⋍ 3 por 100 mil habitantes.
+
++ Todas as especialidades médicas
+
++ Todos os municípios do Brasil (~5570)
+:::
+
+::: .pull-right
+::: .center
+
+<img src="img/mgcarencia03.png" width="100%" align="center" style="border-radius: 2%;"/>
+
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Mestrado: Pesquisa</span></span></h2>
+
+::: .pull-left
+
++ <span class="heatinline">Título</span>: Novas ferramentas para visualização georreferenciadas de dados: uma integração entre R e Google Maps.
+
++ <span class="heatinline">Pacote</span>: aRouca
+
++ Mapa de Carência
+:::
+
+::: .pull-right
+::: .center
+
+<img src="img/tese.png" width="60%" align="center" style="border-radius: 2%;"/>
+
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Mestrado: Prêmio SUS - 2013</span></span></h2>
+
+
+::: .center
+
+<img src="img/premio.png" width="50%" align="center" style="border-radius: 2%;"/>
+
+:::
+
+# &nbsp; {.left .middle .bg_brain .inverse}
+
+<h2><span class="fancy">Mestrado + Projetos</span></h2>
+
+::: .pull-left
+<h2><span class="heatinline"><span class="fancy">Hard skills</span></span></h2>
+
++ <span class="fancy"><span class="heatinline">Método ágil de desenvolvimento</span></span>
+
++ <span class="fancy"><span class="heatinline">Análise de dados georreferenciados</span></span>
+
++ Java, Javascript, HTML, SVG
+
++ Desenvolvimento de pacotes em R
+
++ <span class="fancy"><span class="heatinline">Aprendo + R</span></span>
+
++ <span class="fancy"><span class="heatinline">Aprofundamento teórico</span></span>
+
+:::
+
+::: .pull-right
+<h2><span class="saltinline"><span class="fancy">Soft skills</span></span></h2>
+
++ <span class="fancy"><span class="saltinline">Empatia</span></span>
+
++ <span class="fancy"><span class="saltinline">Resiliência</span></span>
+
++ <span class="fancy"><span class="saltinline">Desenvolvimento EMOCIONAL +</span></span>
+
++ <span class="fancy"><span class="saltinline">Compartilhar conhecimento +</span></span>
+
++ <span class="fancy"><span class="saltinline">Colaboração +</span></span> 
+
++ Escrita
+
+:::
+
+# &nbsp; {.left .top .inverse background-image="img/phd.jpeg" background-size="cover"}
+
+::: .pull-left
+
+<h1><span class="fancy"><span class="saltinline">Doutorado</span></span></h1>
+
++ <span class="large"><span class="fancy"><span class="saltinline">Programa SUS</span></span></span>
+  + Qual a origem dos meus pacientes e quais tratamentos eles fazem?
+  
+  + Quais os destinos dos pacientes residentes da minha cidade e os tipos de tratamento que eles fazem?
+
++ <span class="large"><span class="fancy"><span class="saltinline">InfoSAS</span></span></span>
+  + Detecção de <del>fraude</del> <ins>anomalias</ins> no SUS.
+
++ <span class="large"><span class="fancy"><span class="saltinline">Simon Fraser University</span></span></span>
+:::
+
+
+# &nbsp; {.left .top .inverse}
+
+<h1><span class="fancy"><span class="saltinline">Doutorado: Programa SUS</span></span> <img src="img/programasus-logo.png" width="15%" align="center" style="border-radius: 2%;"/></h1>
+
++ Desenvolvido em R/[shiny](https://shiny.rstudio.com/) para o Ministério da Saúde.
+
+::: .center
+<img src="img/programasus.png" width="70%" align="center" style="border-radius: 2%;"/>
+:::
+
+# &nbsp; {.left .top}
+
+<h1><span class="fancy"><span class="saltinline">Doutorado: InfoSAS</span></span> <img src="img/infosas-logo.png" width="15%" align="center" style="border-radius: 2%;"/></h1>
+
+::: .pull-left
++ ⋍ 5500 cidades no Brasil.
+
++ 6000 estabelecimentos de saúde.
+
++ 5000 conjuntos de procedimentos.
+
++ 3 anos de dados mensais.
+
++ Desenvolvimento de algoritmos (⋍ 15) para detecção de anomalias nas séries históricas do SUS.
+
++ Desenvolvimento de relatórios (folha A4) para a visualização dos dados e resultados dos algoritmos.
+
+:::
+
+::: .pull-right
+::: .center
+<img src="img/infosasbrasil.png" width="100%" align="center" style="border-radius: 2%;"/>
+:::
+:::
+
+# &nbsp; {.left .top .inverse}
+
+<h1><span class="fancy"><span class="saltinline">Doutorado: InfoSAS</span></span> <img src="img/infosas-logo.png" width="15%" align="center" style="border-radius: 2%;"/></h1>
+
+::: .pull-left
+
++ Média
+
++ Mediana
+
++ Taxas (proporção)
+
++ Desvio-Padrão
+
++ Desvio Mediano Absoluto (MAD)
+
++ Percentil
+
++ Janela móvel
+
++ Bayes Empírico
+
+:::
+
+::: .pull-right
+::: .center
+<img src="img/relatorio-infosas.png" width="100%" align="center" style="border-radius: 2%;"/>
+:::
+:::
+
+# &nbsp; {.left .top .inverse}
+
+<h1><span class="fancy"><span class="saltinline">InfoSAS: relatórios</span></span></h1>
+
+::: .pull-left
+::: .center
+<img src="img/relatorio-exemplo-pg1.png" width="65%" align="center" style="border-radius: 0%;"/>
+
+:::
+:::
+
+::: .pull-right
+::: .center
+<img src="img/relatorio-exemplo-pg2.png" width="65%" align="center" style="border-radius: 0%;"/>
+:::
+:::
+
+# &nbsp; {.left .top .inverse}
+
+<h1><span class="fancy"><span class="saltinline">InfoSAS: relatórios</span></span></h1>
+
+::: .pull-left
+::: .center
+<img src="img/relatorio-exemplo-pg3.png" width="65%" align="center" style="border-radius: 0%;"/>
+
+:::
+:::
+
+::: .pull-right
+::: .center
+<img src="img/relatorio-exemplo-pg4.png" width="65%" align="center" style="border-radius: 0%;"/>
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Doutorado: Pesquisa</span></span></h2>
+
+::: .pull-left
+
++ <span class="heatinline">Título</span>: COWORDS: a probabilistic model for text visualization.
+
++ Como visualizar uma sequência de nuvem de palavras de forma que seja <span class="fancy"><span class="heatinline">compacta</span></span>, <span class="fancy"><span class="heatinline">sem sobreposição das palavras</span></span>, e que palavras que aparecem em mais de uma nuvem devem ficar na <span class="fancy"><span class="heatinline">mesma posição</span></span> ao longo das nuvens.
+
++ <span class="fancy"><span class="heatinline">COWORDS</span></span> é baseado em uma distribuição de probabilidade em que as configurações mais prováveis de serem obervadas desta distribuição são aquelas que seguem os princípios.
+
+:::
+
+::: .pull-right
+::: .center
+<img src="img/cowords.png" width="60%" align="center" style="border-radius: 2%;"/>
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Doutorado: Pesquisa</span></span></h2>
+
+::: .pull-left
+
++ <span class="heatinline">Título</span>: COWORDS: a probabilistic model for text visualization.
+
++ Como visualizar uma sequência de nuvem de palavras de forma que seja <span class="fancy"><span class="heatinline">compacta</span></span>, <span class="fancy"><span class="heatinline">sem sobreposição das palavras</span></span>, e que palavras que aparecem em mais de uma nuvem devem ficar na <span class="fancy"><span class="heatinline">mesma posição</span></span> ao longo das nuvens.
+
++ <span class="fancy"><span class="heatinline">COWORDS</span></span> é baseado em uma distribuição de probabilidade em que as configurações mais prováveis de serem obervadas desta distribuição são aquelas que seguem os princípios.
+
+:::
+
+::: .pull-right
+::: .center
+<img src="img/wordcloud.png" width="100%" align="center" style="border-radius: 2%;"/>
+:::
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Doutorado: Pesquisa</span></span></h2>
+
+::: .pull-left
+
++ <span class="heatinline">Título</span>: COWORDS: a probabilistic model for text visualization.
+
++ Como visualizar uma sequência de nuvem de palavras de forma que seja <span class="fancy"><span class="heatinline">compacta</span></span>, <span class="fancy"><span class="heatinline">sem sobreposição das palavras</span></span>, e que palavras que aparecem em mais de uma nuvem devem ficar na <span class="fancy"><span class="heatinline">mesma posição</span></span> ao longo das nuvens.
+
++ <span class="fancy"><span class="heatinline">COWORDS</span></span> é baseado em uma distribuição de probabilidade em que as configurações mais prováveis de serem obervadas desta distribuição são aquelas que seguem os princípios.
+
+:::
+
+::: .pull-right
+$$\pi(\mathbf{W})\propto\exp\left\{-\sum_{t=1}^{T}\sum_{i\sim j}{\alpha_{tij}^{2}}\right\}\prod_{t=1}^{T}\prod_{i \neq j}\mathbb{1}_{\left[S_{tij}\right]}$$
+:::
+
+# &nbsp; {.left .middle .inverse background-image="img/bear-at-sfu.jpeg" background-size="cover"}
+
+<!-- --- -->
+<!-- class: left, middle, inverse -->
+
+<!-- ## .fancy[.acidinline[Tentando a sorte]] -->
+
+<!-- .pull-left[ -->
+
+<!-- + Tema de pesquisa -->
+
+<!-- + Momento certo -->
+
+<!-- + Networking - Luís Fernando -->
+
+<!-- + Busca da oportunidade (e-mail) -->
+
+<!-- ] -->
+
+<!-- .pull-right[ -->
+<!-- .center[ -->
+<!-- <img src="img/sfu-alto.jpeg" width="100%" align="center" style="border-radius: 2%;"/> -->
+<!-- ] -->
+<!-- ] -->
+
+# &nbsp; {.left .middle .inverse}
+
+<h2><span class="fancy"><span class="acidinline">Simon Fraser University - SFU</span></span></h2>
+
+::: .pull-left
+
++ ⋍ 4 meses na Simon Fraser
+
++ Muita pesquisa e desafios
+
++ Muito aprendizado
+
++ Inglês
+
++ Abertura de uma nova porta
+:::
+
+::: .pull-right
+::: .center
+<img src="img/sfu-lago.jpeg" width="100%" align="center" style="border-radius: 2%;"/>
+:::
+:::
+
+# &nbsp; {.left .middle .inverse background-image="img/sfu-quarto.png" background-size="cover"}
+
+# &nbsp; {.left .middle .inverse background-image="img/sfu-turismo.png" background-size="cover"}
+
+# &nbsp; {.left .middle .inverse background-image="img/food-canada.jpeg" background-size="contain"}
+
+# &nbsp; {.left .middle .bg_brain .inverse}
+
+<h2><span class="fancy">Doutorado + Projetos + Canadá</span></h2>
+
+::: .pull-left
+<h2><span class="heatinline"><span class="fancy">Hard skills</span></span></h2>
+
++ <span class="fancy"><span class="heatinline">Programar c++</span></span>
+
++ <span class="fancy">Computação Paralela</span>
+
++ <span class="fancy"><span class="heatinline">Análise de dados + + +</span></span>
+
++ <span class="fancy"><span class="heatinline">Aprendo + R + + +</span></span>
+
++ <span class="fancy"><span class="heatinline">Aprofundamento teórico + + + + +</span></span>
+
++ <span class="fancy"><span class="heatinline">Inglês</span></span>
+
+:::
+
+::: .pull-right
+<h2><span class="saltinline"><span class="fancy">Soft skills</span></span></h2>
+
++ <span class="fancy"><span class="saltinline">Pensamento Organizado - Lógico</span></span> 
+
++ <span class="fancy"><span class="saltinline">Comunicação</span></span>
+
++ <span class="fancy"><span class="saltinline">Empatia +</span></span>
+
++ <span class="fancy"><span class="saltinline">Resiliência + +</span></span>
+
++ <span class="fancy"><span class="saltinline">Desenvolvimento EMOCIONAL + + +</span></span>
+
++ <span class="fancy"><span class="saltinline">Colaboração + + </span></span> 
+
++ <span class="fancy"><span class="saltinline">Globalizado</span></span> 
+:::
+
+# &nbsp; {.left .middle .inverse .fao-opening}
+
+# &nbsp; {.left .middle .inverse}
+
+<h1><span class="fancy"><span class="salt">O que a FAO faz?</span></span></h1>
+
+--
+
+::: .center
+<img src="img/oqueafaofaz.png" width="80%" align="center" style="border-radius: 0%;"/>
+:::
+
+<!-- --- -->
+<!-- class: left, middle, inverse -->
+
+<!-- ## .fancy[.salt[Como entrei na FAO?]] -->
+
+<!-- -- -->
+
+<!-- 1. Um amigo que trabalha na FAO me contou sobre uma vaga para estatístico <a href="https://twitter.com/vidigal_br?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @vidigal_br</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- 2. Submissão do CV para candidatura -->
+
+<!-- 3. Entrevista I -->
+<!--   + .fancy[.heatinline[hard skills]] -->
+<!--   + Falar sobre as experiências acadêmicas e profissionais -->
+
+<!-- 4. Teste de estatística, programação em R: 72 horas para entregar o relatório. -->
+
+<!-- 5. Entrevista II -->
+<!--   + .fancy[.saltinline[soft skills]] -->
+<!--   + "Descreva uma situação em que você teve algum conflito profissional" -->
+<!--   + "Como fez para resolvê-lo?" -->
+
+# &nbsp; {.left .top .inverse background-image="img/oqfao.jpeg" background-size="cover"}
+
+::: .pull-left
+<h2><span class="fancy"><span class="salt">O que um Estastístico faz na FAO?</span></span></h2>
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+::: .pull-left
+<h2><span class="fancy"><span class="salt">O que um Estastístico faz na FAO?</span></span></h2>
+:::
+
+::: .pull-right
+
++ Obtenção e padronização dos dados nas codificações internacionais
+
++ Análise de dados faltantes: imputação através de modelos estatístico
+
++ Detecção de _outliers_ e proposta de correção dos valores atípicos
+
++ Relatórios estatístico
+
++ Previsão: consumo de carne nos próximos 10 anos
+
++ Estimação: número de pessoas que vivem em insegurança alimentar por país, região, ...
+
++ [Visite FAOSTAT](http://www.fao.org/faostat/en/#data)
+
+:::
+
+# &nbsp; {.center .bottom .inverse background-image="img/ano1fao.jpeg" background-position="100% 40%" background-size="cover"}
+
+<h3><span class="fancy"><span class="heatinline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meus 5 centavos...</span></span></h3>
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid">Primeiro ano na FAO: <span class="fatinline">meu principal produto</span></span></span></h4>
+
+::: .left-column
+
++ Obtenção dos dados
+
++ Codificação dos países e commodities
+
++ Tratamento de dados faltantes
+
++ Tratamento de valores discrepantes
+
++ Integração com o Sistema da FAO
+
+:::
+
+::: .right-column
+<img src="img/app-fisheries.png" width="80%" align="center" style="border-radius: 0%;"/>
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+::: .pull-left
+<h4><span class="fancy"><span class="acid"><span class="heatinline">MetroPolicy</span>: os países levam em conta o uso de estatística na tomada de decisão?</span></span></h4>
+:::
+
+::: .pull-right
+
++ ~4000 documentos texto (leis, políticas públicas, planos nacionais)
+
++ ~200 países
+
++ 7 idiomas
+
++ 33 anos de dados
+
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+::: .pull-left
+<h4><span class="fancy"><span class="acid"><span class="heatinline">Topics Explorer Monitor</span>: uma ferramenta que monitora o sentimento e a popularidade de tópicos que impactam os Objetivos de Desenvolvimento Sustentável (ODS).</h4>
+</span></span>
+:::
+
+::: .pull-right
+
+
++ Os artigos são classificados diariamente em um dos tópicos, e o sentimento é calculado com base no artigo.
+
++ Os usuários podem distinguir a imprensa nacional da imprensa internacional.
+
++ ~10 milhões de notícias
+
++ ~17.000 notícias diárias são coletadas, classificadas e sentimento calculado
+
+:::
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid"><span class="heatinline">Topics Explorer</span></span></span></h4>
+
+<img src="img/topics-explorer.png" width="100%" align="center" style="border-radius: 0%;"/>
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid"><span class="heatinline">Topics Explorer</span></span></span></h4>
+
+<iframe src="https://foodandagricultureorganization.shinyapps.io/topics-stories-totem/" width="100%" height="75%" frameBorder = "0", loading = "lazy"></iframe> 
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid"><span class="heatinline">DataLab Trends</span></span></span></h4>
+
+<iframe src="https://foodandagricultureorganization.shinyapps.io/datalab-trends-news/" width="100%" height="75%" frameBorder = "0", loading = "lazy"></iframe> 
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid"><span class="heatinline">DataLab Trends</span></span></span></h4>
+
+<img src="img/datalab-trends.png" width="100%" align="center" style="border-radius: 0%;"/>
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="fancy"><span class="acid"><span class="heatinline">Food Prices</span></span></span></h4>
+
+<iframe src="https://foodandagricultureorganization.shinyapps.io/dl_foodprices/" width="100%" height="75%" frameBorder = "0", loading = "lazy"></iframe> 
+
+# &nbsp; {.left .middle .inverse}
+
+<h4><span class="acid">DataLab webpage</span>: https://www.fao.org/datalab/</h4>
+
+::: .center
+<a href="https://www.fao.org/datalab/en"> <img src="img/datalabpage.png" width="80%" align="center" style="border-radius: 0%;"/></a>
+:::
+
+http://www.fao.org/datalab/website/web/
+
+# &nbsp; {.center .bottom .inverse background-image="img/viewfao.jpeg" background-size="cover"}
+
+# &nbsp; {.center .bottom .inverse background-image="img/cafefao.jpeg" background-size="cover"}
+
+
+# &nbsp; {.left .middle .bg_brain .inverse}
+
+<h2><span class="fancy">FAO</span></h2>
+
+::: .pull-left
+<h2><span class="heatinline"><span class="fancy">Hard skills</span></span></h2>
+
++ <span class="fancy"><span class="heatinline">Google cloud</span></span>
+
++ <span class="fancy"><span class="heatinline">Solr DB - NoSQL</span></span>
+:::
+
+::: .pull-right
+<h2><span class="saltinline"><span class="fancy">Soft skills</span></span></h2>
+
++ <span class="fancy"><span class="saltinline">Comunicação + +</span></span>
+
++ <span class="fancy"><span class="saltinline">Resiliência + + +</span></span>
+
++ <span class="fancy"><span class="saltinline">Trabalhar sob alta pressão</span></span> 
+
++ <span class="fancy"><span class="saltinline">Desenvolvimento EMOCIONAL + + +</span></span>
+
++ <span class="fancy"><span class="saltinline">Colaboração + + </span></span> 
+
++ <span class="fancy"><span class="saltinline">Globalizado + + </span></span> 
+:::
+
+# &nbsp; {.left .middle .bg_brain .inverse}
+
+<h2><span class="fancy">Trajetória até aqui...</span></h2>
+
+::: .pull-left
+<h2><span class="heatinline"><span class="fancy">Hard skills</span></span></h2>
+
++ <span class="fancy"><span class="heatinline">Teoria Estatística</span></span>: Probabilidade + Inferência + Modelagem
+
++ <span class="fancy"><span class="heatinline">Programação</span></span>: lógica de programação + R
+
++ Prática de <span class="fancy"><span class="heatinline">análise de dados</span></span> (colocar a mão na massa)
+
++ <span class="fancy"><span class="heatinline">Inglês</span></span>
+
+:::
+
+::: .pull-right
+<h2><span class="saltinline"><span class="fancy">Soft skills</span></span></h2>
+
++ <span class="fancy"><span class="saltinline">Comunicação</span></span>
+
++ <span class="fancy"><span class="saltinline">Compartilhar</span></span>
+
++ <span class="fancy"><span class="saltinline">Resiliência</span></span>
+
++ <span class="fancy"><span class="saltinline">Gerenciamento EMOCIONAL</span></span>
+
++ <span class="fancy"><span class="saltinline">Curiosidade + Ação</span></span>: <span class="fancy"><span class="heatinline">caprendizado</span></span>
+
++ <span class="fancy"><span class="saltinline">Respeito</span></span>
+
+:::
+
+# &nbsp; {.right .middle}
+
+<img class="circle" src="img/myphoto.png" width="150px"/>
+
+<h3>Obrigado!</h3>
+
+[<i class="fab fa-twitter"></i> \@lgsilvaesilva](http://twitter.com/lgsilvaesilva)  
+[<i class="fab fa-github"></i> \@lgsilvaesilva](http://github.com/lgsilvaesilva)  
+[<i class="fab fa-linkedin"></i> \@lgsilvaesilva](https://www.linkedin.com/in/lgsilvaesilva/)  
+[<i class="fas fa-link"></i> lgsilvaesilva.github.io](https://lgsilvaesilva.github.io)
+
+# &nbsp; {#xaringan-title-48 .center .middle .inverse background-image="img/rome_map.png" background-size="cover"}
+
+<h1><em><span class="fancy">Todos os caminhos <del>levam</del> <ins>me levaram</ins> a Roma</span></em></h1>
+<h2><span class="subtitleinline"><span class="fancy">passeio aleatório de um Estatístico até a ONU/FAO</span></span></h2>
+
+<span class="medium">Luís Silva e Silva |  Encontro Comemorativo - UFMG | Outubro 2024</span>

@@ -3,6 +3,24 @@
   width: 43%;
 }
 
+.pull-left,
+.left-column {
+  float: left;
+  width: 47%;
+}
+
+.pull-right,
+.right-column {
+  float: right;
+  width: 47%;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 :root {
   --color-subtitle: crimson; /* crimson */
   --color-salt: #61acf0; /* blue */
@@ -202,6 +220,52 @@ div.my-footer span {
   right: 20px;
 }
 
+.reveal::after {
+  content: "lgsilvaesilva.github.io/estufmg2024";
+  background-color: #1a1917;
+  color: #F7F8FA;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 10pt;
+  line-height: 20px;
+  z-index: 20;
+}
+
+.reveal .slide-number {
+  bottom: 18px;
+  opacity: 0.5;
+  right: 20px;
+  z-index: 30;
+}
+
+.reveal section.left {
+  text-align: left;
+}
+
+.reveal section.right {
+  text-align: right;
+}
+
+.reveal section.center {
+  text-align: center;
+}
+
+.reveal section.middle {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reveal section.bottom {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 img.circle {
   border-radius:50%;
 }
@@ -258,6 +322,47 @@ pre {
 img.lil {
   width: 15%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.bg_karl {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl::before {
+  content: "";
+  background-image: url('../img/toolbox.jpeg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.bg_brain {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_brain::before {
+  content: "";
+  background-image: url('../img/brain02.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.reveal section.fao-opening {
+  background-image: url('../img/fao-logo2.svg'), url('../img/fao01.jpeg');
+  background-size: 50%, 100%;
+  background-position: 50% 0%, 0% 100%;
+  background-repeat: no-repeat, no-repeat;
 }
