@@ -62,20 +62,6 @@ background-color: #f3f3f3ff
 [`r fa(name = "link")` lgsilvaesilva.github.io](https://lgsilvaesilva.github.io)
 
 ---
-### LUMINA Project
-.center[
-<iframe 
-  width="800" 
-  height="450" 
-  src="https://www.youtube.com/embed/uMhsR6RvMnU" 
-  title="LUMINA – AI Livelihood, Food Insecurity and Undernutrition Modeling for Anticipatory Action using AI" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>]
-
----
 class: center, middle, bg_karl
 
 ```{css, echo = F}
@@ -925,6 +911,21 @@ class: left, middle, bg_brain,inverse
 + .fancy[.saltinline[Respeito]]
 
 ]
+---
+
+### LUMINA Project
+.center[
+<iframe 
+  width="800" 
+  height="450" 
+  src="https://www.youtube.com/embed/uMhsR6RvMnU" 
+  title="LUMINA – AI Livelihood, Food Insecurity and Undernutrition Modeling for Anticipatory Action using AI" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>]
+
 
 ---
 
